@@ -1,0 +1,145 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	background-color: #A3e2de;
+	
+}
+/* Header styles*/
+.header{
+	
+	color: #fff;
+}
+.header .container{
+	margin: auto 0;
+	width: inherit;
+}
+#logo{
+	margin-left: 10px;
+	margin-top: 20px;
+}
+.header .col-md-3{
+	padding-left: 0;
+}
+.header h3{
+	font-weight: bold;
+}
+.header p{
+	font-size: 20px;
+}
+
+.header h3,p{
+	padding-left: 0;
+	font-family: 'Alegreya', serif;
+	color: #631111;
+}
+.header .col-md-7{
+	padding-left: 0;
+	margin: 40px auto;
+    padding-right: 0;
+    
+}
+.header a{
+	color: #631111;
+    font-size: 16px;
+}
+.header a:hover{
+	color: #000;
+}
+.header li{
+    font-size: 16px;
+    font-family: 'Delius Unicase', cursive;
+    margin: auto 0;
+    }
+
+/* Jumbotron styles*/
+
+.jumbotron{
+	  background: url("../images/jumbotron.jpg") no-repeat center center;
+      background-size: cover;
+      height: 800px;
+      color: #420C07;
+      margin-bottom: 0px;
+}
+.jumbotron .container{
+	
+	margin: 150px auto;
+	
+}
+
+.head{
+       text-align: center;
+       font-family: 'Alegreya', serif;
+}
+
+.jumbotron p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 26px;
+	font-family: 'Dancing Script', cursive;
+}
+
+/* main styles*/
+
+.main h2{
+	margin: 30px auto;
+	color: #631111;
+}
+
+.main .projects{
+	margin: 20px 10px 10px 10px;
+
+}
+.main h3{
+	position: relative;
+	bottom: 130px;
+	left: 45px;
+	color: #000;
+	font-weight: bold;
+}
+.contactform{
+	text-align: center;
+}
+.contactform h2,p{
+	color: #631111;
+
+}
+.contactform p{
+	font-size: 20px;
+
+}
+.form-inline .form-control{
+	width: 300px;
+	margin: 10px;
+}
+#describe{
+	text-align: left;
+	
+    width: 700px;
+    margin-left: 0;
+    margin-top: 20px;
+    position: relative;
+    right: 80px;
+}
+.footer{
+	background-color: #fff;
+
+}
+.footer .container{
+	height: 100px;
+}
+.footer .links{
+	text-align: center;
+	margin-top: 20px;
+	position: relative;
+	left: 260px;
+}
+.footer p{
+	font-size: 18px;
+	text-align: right;
+	color: #631111;
+	margin-top: 10px;
+}
+
